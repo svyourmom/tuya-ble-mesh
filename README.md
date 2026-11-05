@@ -1,11 +1,10 @@
 # Tuya BLE Mesh for Home Assistant
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?logo=homeassistantcommunitystore)](https://github.com/hacs/integration)
-[![CI](https://github.com/11z4t/tuya-ble-mesh/actions/workflows/ci.yml/badge.svg)](https://github.com/11z4t/tuya-ble-mesh/actions/workflows/ci.yml)
+[![CI](https://github.com/svyourmom/tuya-ble-mesh/actions/workflows/ci.yml/badge.svg)](https://github.com/svyourmom/tuya-ble-mesh/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/badge/version-0.35.0-blue.svg)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![HA 2025.3+](https://img.shields.io/badge/HA-2025.3%2B-blue.svg)](https://www.home-assistant.io)
-[![Tests](https://img.shields.io/badge/tests-1922%20passing-brightgreen.svg)](https://github.com/11z4t/tuya-ble-mesh/actions)
+[![Tests](https://img.shields.io/badge/tests-1922%20passing-brightgreen.svg)](https://github.com/svyourmom/tuya-ble-mesh/actions)
 
 A fully local Home Assistant integration for controlling Tuya BLE Mesh devices. No cloud. No Tuya account required for daily use.
 
@@ -216,7 +215,7 @@ The core library has no HA dependencies and can be used independently for script
 
 ```bash
 # Clone and set up virtual environment
-git clone https://github.com/11z4t/tuya-ble-mesh.git
+git clone https://github.com/svyourmom/tuya-ble-mesh.git
 cd tuya-ble-mesh
 python -m venv venv
 source venv/bin/activate
